@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <script src="JS/rem.js"></script>
+    <script src="JS/jquery.js"></script>
+    <script src="JS/swiper.min.js"></script>
+    <script src="JS/iscroll.js"></script>
+    <script src="JS/hammer.js"></script>
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/yidongduan.css">
+</head>
+<body>
+<div id="main">
+    <div id="top">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img/bin1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bin2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bin3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bin4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bin5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/bin6.jpg" alt="">
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    <div id="zhongbu">
+        <div class="top">
+            <div class="zuo active">
+                未完成的任务
+            </div>
+            <div class="you">
+                已完成的任务
+            </div>
+        </div>
+    </div>
+    <div class="neirong">
+        <ul></ul>
+        <div class="lj"><i class="iconfont lix">&#xe600;</i></div>
+    </div>
+    <div id="bottom">
+        添加
+    </div>
+</div>
+<div class="mask">
+    <div id="editarea">
+        <textarea id="text"></textarea>
+        <input type="button" value="提交" id="submit">
+        <input type="button" value="关闭" id="close">
+    </div>
+    <div id="xgitarea">
+        <textarea id="wenzi"></textarea>
+        <input type="button" value="修改" id="xiugai">
+        <input type="button" value="关闭" id="guanbi">
+    </div>
+</div>
+</body>
+<script src="JS/yidongduan.js"></script>
+</html>

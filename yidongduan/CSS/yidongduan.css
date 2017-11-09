@@ -1,0 +1,340 @@
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 0.3rem;
+    font-style: normal;
+    color: yellow;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.iconfont1 {
+    font-family: "iconfont" !important;
+    font-size: 0.3rem;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 449625 */
+    src: url('http://at.alicdn.com/t/font_449625_wwsx4zelcb3uwhfr.eot');
+    src: url('http://at.alicdn.com/t/font_449625_wwsx4zelcb3uwhfr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_449625_wwsx4zelcb3uwhfr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_449625_wwsx4zelcb3uwhfr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_449625_wwsx4zelcb3uwhfr.svg#iconfont') format('svg');
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 18px;
+    top:0;
+}
+
+#top {
+    width: 100%;
+    height: 3rem;
+    /*background: #0b0b0b;*/
+}
+
+#zhongbu .top {
+    width: 100%;
+    height: 1.2rem;
+    margin: 0.1rem 0;
+    background: skyblue;
+}
+
+#zhongbu .top .zuo {
+    width: 40%;
+    height: 1rem;
+    margin: 0.1rem 0.3rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 1rem;
+    float: left;
+    cursor: pointer;
+}
+
+#zhongbu .top .zuo.active {
+    background: #ffa9a7;
+}
+
+#zhongbu .top .you {
+    width: 40%;
+    height: 1rem;
+    margin: 0.1rem 0.3rem;
+    border-radius: 1rem;
+    border: 1px solid #000;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    line-height: 1rem;
+    float: right;
+    cursor: pointer;
+}
+
+#zhongbu .top .you.active {
+    background: lightgreen;
+}
+
+.neirong {
+    width: 100%;
+    height: calc(100% - 5.4rem);
+    overflow: hidden;
+    position: relative;
+}
+.neirong ul{
+    box-sizing: border-box;
+    border-top: 1px solid white;
+}
+
+.finsh {
+    display: none;
+}
+.right{
+    width: 2.5rem;
+    background: red;
+    position: absolute;
+    top:0;
+    right: -2.5rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.del{
+    width: 2.5rem;
+    background: red;
+    position: absolute;
+    top:0;
+    right: -2.5rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.neirong ul li {
+    height: 1rem;
+    margin: 0.2rem 0;
+    font-size: 0.35rem;
+    line-height: 1rem;
+    color: white;
+    background-color: forestgreen;
+    display: flex;
+    position: relative;
+}
+
+.neirong input {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin: 0.3rem 0;
+}
+
+.neirong li span {
+    margin-left: 0.1rem;
+    overflow: auto;
+}
+
+.neirong li p {
+    width: 33%;
+    margin: 0 0.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.neirong li i {
+    width: 0.4rem;
+    height: 100%;
+    margin-right: 0.1rem;
+}
+.neirong .lj{
+    width: 1rem;
+    height: 1rem;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    display: none;
+}
+.neirong .lix{
+    font-size: 0.8rem;
+    color: #757575;
+}
+.neirong li #active{
+    color: red;
+}
+
+#bottom {
+    width: 100%;
+    height: 1rem;
+    background: orange;
+    font-size: 0.5rem;
+    color: black;
+    text-align: center;
+    line-height: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#bottom p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 36px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 375px) {
+    html {
+        font-size: 50px;
+    }
+}
+
+#editarea {
+    width: 6rem;
+    height: 6rem;
+    background-color: #fff;
+    border: 2px solid #ffac13;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+#editarea textarea {
+    width: 100%;
+    height: 80%;
+    border-radius: 0.2rem;
+    resize: none;
+    /*不能被拖动*/
+    padding: 0.3rem;
+}
+
+#editarea input {
+    width: 40%;
+    height: 16%;
+    background-color: #0f33ff;
+    border-radius: 0.2rem;
+    margin: 0 5%;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    font-size: 0.4rem;
+    float: left;
+}
+#editarea input：focus {
+    outline: none;
+}
+
+#editarea textarea：focus {
+    outline: none;
+}
+#xgitarea {
+    width: 6rem;
+    height: 6rem;
+    background-color: #fff;
+    border: 2px solid #ffac13;
+    border-radius: 0.2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 2px;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+#xgitarea textarea {
+    width: 100%;
+    height: 80%;
+    border-radius: 0.2rem;
+    resize: none;
+    /*不能被拖动*/
+    padding: 0.3rem;
+}
+
+#xgitarea input {
+    width: 40%;
+    height: 16%;
+    background-color: #0f33ff;
+    border-radius: 0.2rem;
+    margin: 0 5%;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #fff;
+    font-size: 0.4rem;
+    float: left;
+}
+#xgitarea input：focus {
+    outline: none;
+}
+
+#xgitarea textarea：focus {
+    outline: none;
+}
+.mask {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    top: -13.2rem;
+    left: 0;
+    display: none;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    /*filter: blur(2px);*/
+    /*滤镜*/
+    /*display: none;*/
+}
+
+@keyframes show {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.show {
+    animation: all 0.5s ease;
+
+}
+
